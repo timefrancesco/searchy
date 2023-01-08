@@ -1,14 +1,12 @@
-![Logo](origi.png)
-# Kagi Search extension for Safari
-Safari Extension that allows the user to use Kagi.com search engine. 
+# Search extension for Safari
+Safari Extension that allows the user to use Kagi.com search engine, and Brave search in private. 
 Implemented purely using native APIs in Swift.
+Forked from [Kagi Search](https://github.com/marcocebrian/kagisearchsafari)
 
-# Download
-[Free Simple Version 1.2](https://github.com/marcocebrian/kagisearchsafari/releases/download/v12/KagiSearch.app.zip)
-(Intel + M1 Native) Universal Binary
-
-💪 [Full extension for Safari](https://apps.apple.com/in/app/custom-search-engine/id1588019370?mt=12)
-[App Store] (Intel + M1 Native) 17 Search engines...
+# Info and limits - Please read
+* To detect private mode, need to request Level = all, this means Safari will warn you about possible tracking
+* If you don't need to differentiate private mode search engine, set Level = Some in the info.plist 
+* On an empty tab (new tab), private mode detection doesn't work, so it will still search in Kagi. Detection only works on an open website.
 
 
 # LICENSE
@@ -18,6 +16,5 @@ Attribution 4.0 International (CC BY 4.0)
 (https://creativecommons.org/licenses/by/4.0/)
 
 ## How to Use
-Compile with xCode, then activate the 'KagiSearch' extension in Safari.
+Clone or download, open with Xcode, run. 
 
-## Marco Cebrián Muiño - 2021

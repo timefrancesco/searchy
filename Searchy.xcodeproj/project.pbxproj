@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD49B6D28F40BBA00DA0FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B6C28F40BBA00DA0FC2 /* AppDelegate.swift */; };
+		AFD49B6F28F40BBA00DA0FC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B6E28F40BBA00DA0FC2 /* SceneDelegate.swift */; };
+		AFD49B7228F40BBA00DA0FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B7028F40BBA00DA0FC2 /* LaunchScreen.storyboard */; };
+		AFD49B7528F40BBA00DA0FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B7328F40BBA00DA0FC2 /* Main.storyboard */; };
+		AFD49B7E28F40BBA00DA0FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B7D28F40BBA00DA0FC2 /* AppDelegate.swift */; };
+		AFD49B8128F40BBA00DA0FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B7F28F40BBA00DA0FC2 /* Main.storyboard */; };
+		AFD49B8828F40BBA00DA0FC2 /* Searchy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AFD49B8728F40BBA00DA0FC2 /* Searchy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AFD49B9228F40BBA00DA0FC2 /* Searchy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AFD49B9128F40BBA00DA0FC2 /* Searchy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AFD49B9828F40BBA00DA0FC2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5328F40BB800DA0FC2 /* Main.html */; };
+		AFD49B9928F40BBA00DA0FC2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5328F40BB800DA0FC2 /* Main.html */; };
+		AFD49B9A28F40BBA00DA0FC2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5528F40BB800DA0FC2 /* Icon.png */; };
+		AFD49B9B28F40BBA00DA0FC2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5528F40BB800DA0FC2 /* Icon.png */; };
+		AFD49B9C28F40BBA00DA0FC2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5628F40BB800DA0FC2 /* Style.css */; };
+		AFD49B9D28F40BBA00DA0FC2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5628F40BB800DA0FC2 /* Style.css */; };
+		AFD49B9E28F40BBA00DA0FC2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5728F40BB800DA0FC2 /* Script.js */; };
+		AFD49B9F28F40BBA00DA0FC2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5728F40BB800DA0FC2 /* Script.js */; };
+		AFD49BA028F40BBA00DA0FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B5828F40BB800DA0FC2 /* ViewController.swift */; };
+		AFD49BA128F40BBA00DA0FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B5828F40BB800DA0FC2 /* ViewController.swift */; };
+		AFD49BA228F40BBA00DA0FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5928F40BBA00DA0FC2 /* Assets.xcassets */; };
+		AFD49BA328F40BBA00DA0FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD49B5928F40BBA00DA0FC2 /* Assets.xcassets */; };
+		AFD49BA428F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B5B28F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift */; };
+		AFD49BA528F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD49B5B28F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD49B8928F40BBA00DA0FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD49B4D28F40BB800DA0FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD49B8628F40BBA00DA0FC2;
+			remoteInfo = "Searchy Extension (iOS)";
+		};
+		AFD49B9328F40BBA00DA0FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD49B4D28F40BB800DA0FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD49B9028F40BBA00DA0FC2;
+			remoteInfo = "Searchy Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFD49BBB28F40BBA00DA0FC2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFD49B8828F40BBA00DA0FC2 /* Searchy Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49BC228F40BBA00DA0FC2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFD49B9228F40BBA00DA0FC2 /* Searchy Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFD49B5428F40BB800DA0FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		AFD49B5528F40BB800DA0FC2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AFD49B5628F40BB800DA0FC2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		AFD49B5728F40BB800DA0FC2 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		AFD49B5828F40BB800DA0FC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFD49B5928F40BBA00DA0FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD49B5B28F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		AFD49B6928F40BBA00DA0FC2 /* Searchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Searchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD49B6C28F40BBA00DA0FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD49B6E28F40BBA00DA0FC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFD49B7128F40BBA00DA0FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD49B7428F40BBA00DA0FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFD49B7628F40BBA00DA0FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD49B7B28F40BBA00DA0FC2 /* Searchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Searchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD49B7D28F40BBA00DA0FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFD49B8028F40BBA00DA0FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFD49B8228F40BBA00DA0FC2 /* Searchy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Searchy.entitlements; sourceTree = "<group>"; };
+		AFD49B8728F40BBA00DA0FC2 /* Searchy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Searchy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD49B8C28F40BBA00DA0FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD49B9128F40BBA00DA0FC2 /* Searchy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Searchy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD49B9628F40BBA00DA0FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD49B9728F40BBA00DA0FC2 /* Searchy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Searchy.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD49B6628F40BBA00DA0FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B7828F40BBA00DA0FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B8428F40BBA00DA0FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B8E28F40BBA00DA0FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD49B4C28F40BB800DA0FC2 = {
+			isa = PBXGroup;
+			children = (
+				AFD49B5128F40BB800DA0FC2 /* Shared (App) */,
+				AFD49B5A28F40BBA00DA0FC2 /* Shared (Extension) */,
+				AFD49B6B28F40BBA00DA0FC2 /* iOS (App) */,
+				AFD49B7C28F40BBA00DA0FC2 /* macOS (App) */,
+				AFD49B8B28F40BBA00DA0FC2 /* iOS (Extension) */,
+				AFD49B9528F40BBA00DA0FC2 /* macOS (Extension) */,
+				AFD49B6A28F40BBA00DA0FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD49B5128F40BB800DA0FC2 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B5828F40BB800DA0FC2 /* ViewController.swift */,
+				AFD49B5928F40BBA00DA0FC2 /* Assets.xcassets */,
+				AFD49B5228F40BB800DA0FC2 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		AFD49B5228F40BB800DA0FC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B5328F40BB800DA0FC2 /* Main.html */,
+				AFD49B5528F40BB800DA0FC2 /* Icon.png */,
+				AFD49B5628F40BB800DA0FC2 /* Style.css */,
+				AFD49B5728F40BB800DA0FC2 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFD49B5A28F40BBA00DA0FC2 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B5B28F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		AFD49B6A28F40BBA00DA0FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B6928F40BBA00DA0FC2 /* Searchy.app */,
+				AFD49B7B28F40BBA00DA0FC2 /* Searchy.app */,
+				AFD49B8728F40BBA00DA0FC2 /* Searchy Extension.appex */,
+				AFD49B9128F40BBA00DA0FC2 /* Searchy Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD49B6B28F40BBA00DA0FC2 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B6C28F40BBA00DA0FC2 /* AppDelegate.swift */,
+				AFD49B6E28F40BBA00DA0FC2 /* SceneDelegate.swift */,
+				AFD49B7028F40BBA00DA0FC2 /* LaunchScreen.storyboard */,
+				AFD49B7328F40BBA00DA0FC2 /* Main.storyboard */,
+				AFD49B7628F40BBA00DA0FC2 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		AFD49B7C28F40BBA00DA0FC2 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B7D28F40BBA00DA0FC2 /* AppDelegate.swift */,
+				AFD49B7F28F40BBA00DA0FC2 /* Main.storyboard */,
+				AFD49B8228F40BBA00DA0FC2 /* Searchy.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		AFD49B8B28F40BBA00DA0FC2 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B8C28F40BBA00DA0FC2 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		AFD49B9528F40BBA00DA0FC2 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AFD49B9628F40BBA00DA0FC2 /* Info.plist */,
+				AFD49B9728F40BBA00DA0FC2 /* Searchy.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD49B6828F40BBA00DA0FC2 /* Searchy (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD49BBC28F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy (iOS)" */;
+			buildPhases = (
+				AFD49B6528F40BBA00DA0FC2 /* Sources */,
+				AFD49B6628F40BBA00DA0FC2 /* Frameworks */,
+				AFD49B6728F40BBA00DA0FC2 /* Resources */,
+				AFD49BBB28F40BBA00DA0FC2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD49B8A28F40BBA00DA0FC2 /* PBXTargetDependency */,
+			);
+			name = "Searchy (iOS)";
+			productName = "Searchy (iOS)";
+			productReference = AFD49B6928F40BBA00DA0FC2 /* Searchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD49B7A28F40BBA00DA0FC2 /* Searchy (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD49BC328F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy (macOS)" */;
+			buildPhases = (
+				AFD49B7728F40BBA00DA0FC2 /* Sources */,
+				AFD49B7828F40BBA00DA0FC2 /* Frameworks */,
+				AFD49B7928F40BBA00DA0FC2 /* Resources */,
+				AFD49BC228F40BBA00DA0FC2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD49B9428F40BBA00DA0FC2 /* PBXTargetDependency */,
+			);
+			name = "Searchy (macOS)";
+			productName = "Searchy (macOS)";
+			productReference = AFD49B7B28F40BBA00DA0FC2 /* Searchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD49B8628F40BBA00DA0FC2 /* Searchy Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD49BB828F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy Extension (iOS)" */;
+			buildPhases = (
+				AFD49B8328F40BBA00DA0FC2 /* Sources */,
+				AFD49B8428F40BBA00DA0FC2 /* Frameworks */,
+				AFD49B8528F40BBA00DA0FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Searchy Extension (iOS)";
+			productName = "Searchy Extension (iOS)";
+			productReference = AFD49B8728F40BBA00DA0FC2 /* Searchy Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AFD49B9028F40BBA00DA0FC2 /* Searchy Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD49BBF28F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy Extension (macOS)" */;
+			buildPhases = (
+				AFD49B8D28F40BBA00DA0FC2 /* Sources */,
+				AFD49B8E28F40BBA00DA0FC2 /* Frameworks */,
+				AFD49B8F28F40BBA00DA0FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Searchy Extension (macOS)";
+			productName = "Searchy Extension (macOS)";
+			productReference = AFD49B9128F40BBA00DA0FC2 /* Searchy Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD49B4D28F40BB800DA0FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AFD49B6828F40BBA00DA0FC2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					AFD49B7A28F40BBA00DA0FC2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					AFD49B8628F40BBA00DA0FC2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					AFD49B9028F40BBA00DA0FC2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AFD49B5028F40BB800DA0FC2 /* Build configuration list for PBXProject "Searchy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD49B4C28F40BB800DA0FC2;
+			productRefGroup = AFD49B6A28F40BBA00DA0FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD49B6828F40BBA00DA0FC2 /* Searchy (iOS) */,
+				AFD49B7A28F40BBA00DA0FC2 /* Searchy (macOS) */,
+				AFD49B8628F40BBA00DA0FC2 /* Searchy Extension (iOS) */,
+				AFD49B9028F40BBA00DA0FC2 /* Searchy Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD49B6728F40BBA00DA0FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49B9A28F40BBA00DA0FC2 /* Icon.png in Resources */,
+				AFD49B7228F40BBA00DA0FC2 /* LaunchScreen.storyboard in Resources */,
+				AFD49B9828F40BBA00DA0FC2 /* Main.html in Resources */,
+				AFD49B9E28F40BBA00DA0FC2 /* Script.js in Resources */,
+				AFD49BA228F40BBA00DA0FC2 /* Assets.xcassets in Resources */,
+				AFD49B7528F40BBA00DA0FC2 /* Main.storyboard in Resources */,
+				AFD49B9C28F40BBA00DA0FC2 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B7928F40BBA00DA0FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49B9B28F40BBA00DA0FC2 /* Icon.png in Resources */,
+				AFD49B9D28F40BBA00DA0FC2 /* Style.css in Resources */,
+				AFD49B8128F40BBA00DA0FC2 /* Main.storyboard in Resources */,
+				AFD49B9F28F40BBA00DA0FC2 /* Script.js in Resources */,
+				AFD49BA328F40BBA00DA0FC2 /* Assets.xcassets in Resources */,
+				AFD49B9928F40BBA00DA0FC2 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B8528F40BBA00DA0FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B8F28F40BBA00DA0FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD49B6528F40BBA00DA0FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49BA028F40BBA00DA0FC2 /* ViewController.swift in Sources */,
+				AFD49B6D28F40BBA00DA0FC2 /* AppDelegate.swift in Sources */,
+				AFD49B6F28F40BBA00DA0FC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B7728F40BBA00DA0FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49BA128F40BBA00DA0FC2 /* ViewController.swift in Sources */,
+				AFD49B7E28F40BBA00DA0FC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B8328F40BBA00DA0FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49BA428F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD49B8D28F40BBA00DA0FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD49BA528F40BBA00DA0FC2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD49B8A28F40BBA00DA0FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD49B8628F40BBA00DA0FC2 /* Searchy Extension (iOS) */;
+			targetProxy = AFD49B8928F40BBA00DA0FC2 /* PBXContainerItemProxy */;
+		};
+		AFD49B9428F40BBA00DA0FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD49B9028F40BBA00DA0FC2 /* Searchy Extension (macOS) */;
+			targetProxy = AFD49B9328F40BBA00DA0FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD49B5328F40BB800DA0FC2 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD49B5428F40BB800DA0FC2 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		AFD49B7028F40BBA00DA0FC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD49B7128F40BBA00DA0FC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD49B7328F40BBA00DA0FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD49B7428F40BBA00DA0FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD49B7F28F40BBA00DA0FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD49B8028F40BBA00DA0FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD49BB628F40BBA00DA0FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFD49BB728F40BBA00DA0FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AFD49BB928F40BBA00DA0FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Searchy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy.Extension;
+				PRODUCT_NAME = "Searchy Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFD49BBA28F40BBA00DA0FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Searchy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy.Extension;
+				PRODUCT_NAME = "Searchy Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD49BBD28F40BBA00DA0FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Searchy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy;
+				PRODUCT_NAME = Searchy;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFD49BBE28F40BBA00DA0FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Searchy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy;
+				PRODUCT_NAME = Searchy;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD49BC028F40BBA00DA0FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Searchy.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Searchy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy.Extension;
+				PRODUCT_NAME = "Searchy Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AFD49BC128F40BBA00DA0FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Searchy.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Searchy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy.Extension;
+				PRODUCT_NAME = "Searchy Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AFD49BC428F40BBA00DA0FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Searchy.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Searchy;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy;
+				PRODUCT_NAME = Searchy;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AFD49BC528F40BBA00DA0FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Searchy.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SF59N4HUZ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Searchy;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.Searchy;
+				PRODUCT_NAME = Searchy;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD49B5028F40BB800DA0FC2 /* Build configuration list for PBXProject "Searchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD49BB628F40BBA00DA0FC2 /* Debug */,
+				AFD49BB728F40BBA00DA0FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD49BB828F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD49BB928F40BBA00DA0FC2 /* Debug */,
+				AFD49BBA28F40BBA00DA0FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD49BBC28F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD49BBD28F40BBA00DA0FC2 /* Debug */,
+				AFD49BBE28F40BBA00DA0FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD49BBF28F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD49BC028F40BBA00DA0FC2 /* Debug */,
+				AFD49BC128F40BBA00DA0FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD49BC328F40BBA00DA0FC2 /* Build configuration list for PBXNativeTarget "Searchy (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD49BC428F40BBA00DA0FC2 /* Debug */,
+				AFD49BC528F40BBA00DA0FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD49B4D28F40BB800DA0FC2 /* Project object */;
+}
